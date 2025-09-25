@@ -1,4 +1,4 @@
-module rep-monitor
+module aci-ws-tool
 
 go 1.25.0
 

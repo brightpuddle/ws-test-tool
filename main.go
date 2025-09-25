@@ -22,7 +22,7 @@ func sleep(t time.Duration) {
 
 func main() {
 	args := newArgs()
-	log = newLogger("rep.log")
+	log = newLogger(args.Class + ".log")
 	client := newACIClient(args)
 
 	errChan := make(chan error)
